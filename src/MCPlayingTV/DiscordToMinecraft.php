@@ -23,7 +23,7 @@ class MainClass extends PluginBase{
 
 				return true;
 				break;
-			case "d2m":
+			case "discordtominecraft":
 				$sender->sendMessage(TextFormat::BLUE."Read the documentation:".TextFormat::BLACK." https://rconcraft.ml/docs/d2m");
 				return true;
 			default:
