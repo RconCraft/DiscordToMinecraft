@@ -1,14 +1,17 @@
 name: DiscordToMC
+main: MCPlayingTV\DiscordToMC\DiscordToMC
 version: 1.0.0
-main: MCPlayingTV\DiscordToMC
 api: 3.0.0
 
 author: MCPlayingTV
+description: Send Messages from Discord to your Minecraft Server.
 website: https://rconcraft.ml/docs/d2m
 commands:
-  rcsay:
-    description: Bot Say Command
-    permission: dtm.command.say
-  discordtominecraft:
-    description: Setup DiscordToMinecraft
-    permission: dtm.command.dtm
+ rcsay:
+  description: Bot Say Command
+  usage: "/rcsay user msg"
+  permission: dtom.command.say
+ discordtominecraft:
+  description: Setup DiscordToMinecraft
+  usage: "/discordtominecraft"
+  permission: dtom.command.dtom
