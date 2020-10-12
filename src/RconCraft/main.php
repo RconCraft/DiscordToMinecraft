@@ -25,4 +25,3 @@ class MainClass extends PluginBase{
 		}
 	}
 }
-?>
