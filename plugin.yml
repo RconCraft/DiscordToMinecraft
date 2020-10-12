@@ -8,5 +8,7 @@ website: https://rconcraft.ml/docs/d2m
 commands:
   rcsay:
     description: Bot Say Command
-    usage: "/rcsay"
-    permission: rconcraft.command.say
+    permission: dtm.command.say
+  discordtominecraft:
+    description: Setup DiscordToMinecraft
+    permission: dtm.command.dtm
