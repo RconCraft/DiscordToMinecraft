@@ -1,0 +1,13 @@
+name: RconCraft
+version: 1.0.0
+main: src/main
+api: 3.0.0
+
+author: RconCraft Team
+website: https://rconcraft.ml
+commands:
+  rcsay:
+    description: RconCraft Say Command
+    usage: "/rcsay"
+    permission: rconcraft.command.say
+    permission-message: "You do not have permission to use this command!"
