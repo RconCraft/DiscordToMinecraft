@@ -1,13 +1,18 @@
-name: RconCraft
+name: DiscordToMinecraft
 version: 1.0.0
-main: RconCraft\MainClass
+main: MCPlayingTV\Discord2Minecraft\MainClass
 api: 3.0.0
 
-author: RconCraft Team
-website: https://rconcraft.ml
+author: MCPlayingTV
+website: https://rconcraft.ml/docs/d2m
 commands:
   rcsay:
-    description: RconCraft Say Command
+    description: Bot Say Command
     usage: "/rcsay"
     permission: rconcraft.command.say
-    permission-message: "You do not have permission to use this command!"
+    permission-message: "You don't have permission to use this command!"
+  d2m:
+    description: DiscordToMinecraft
+    usage: "/d2m"
+    permission: "rconcraft.command.d2m
+    permission-message: "You don't have permission to use this command!"
