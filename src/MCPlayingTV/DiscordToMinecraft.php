@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Discord2Minecraft;
+namespace DiscordToMinecraft;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
