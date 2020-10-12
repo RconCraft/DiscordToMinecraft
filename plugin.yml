@@ -1,6 +1,6 @@
 name: RconCraft
 version: 1.0.0
-main: RconCraft\main
+main: RconCraft\MainClass
 api: 3.0.0
 
 author: RconCraft Team
