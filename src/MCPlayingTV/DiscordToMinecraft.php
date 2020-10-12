@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace DiscordToMinecraft;
+namespace DiscordToMC;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -9,11 +9,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
 class MainClass extends PluginBase{
-
-	public function onLoad() : void{
-		$this->getLogger()->info(TextFormat::WHITE . "RconCraft is ready!");
-	}
-
+	
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		switch($command->getName()){
 			case "rcsay":
@@ -23,7 +19,7 @@ class MainClass extends PluginBase{
 
 				return true;
 				break;
-			case "discordtominecraft":
+			case "discordtomc":
 				$sender->sendMessage(TextFormat::BLUE."Read the documentation:".TextFormat::BLACK." https://rconcraft.ml/docs/d2m");
 				return true;
 			default:
