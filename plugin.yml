@@ -1,6 +1,6 @@
-name: DiscordToMinecraft
+name: DiscordToMC
 version: 1.0.0
-main: MCPlayingTV\DiscordToMinecraft
+main: MCPlayingTV\DiscordToMC
 api: 3.0.0
 
 author: MCPlayingTV
