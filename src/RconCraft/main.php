@@ -1,4 +1,4 @@
-
+<?php
 declare(strict_types=1);
 
 namespace RconCraft;
@@ -25,3 +25,4 @@ class MainClass extends PluginBase{
 		}
 	}
 }
+?>
