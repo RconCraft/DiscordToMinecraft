@@ -17,7 +17,9 @@ class MainClass extends PluginBase{
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
 		switch($command->getName()){
 			case "rcsay":
-				$sender->sendMessage("[Discord] " . $args[0] . " > " . $args[1]);
+                if (!isset($args[1])) return true;
+				$this->getServer()->broadcastMessage(TextFormat::BLUE.TextFormat::BOLD."[Discord] " .TextFormat::RESET.TextFormat::GOLD. $args[0] .TextFormat::AQUA. " > " . TextFormat::WHITE.join(" ", array_slice($args,1)));
+                $sender->sendMessage("true");
 
 				return true;
 			default:
