@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace RconCraft;
+namespace Discord2Minecraft;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -21,6 +21,10 @@ class MainClass extends PluginBase{
 				$this->getServer()->broadcastMessage(TextFormat::BLUE.TextFormat::BOLD."[Discord] " .TextFormat::RESET.TextFormat::GOLD. $args[0] .TextFormat::AQUA. " > " . TextFormat::WHITE.join(" ", array_slice($args,1)));
                 $sender->sendMessage("true");
 
+				return true;
+				break;
+			case "d2m":
+				$sender->sendMessage(TextFormat::BLUE."Read the documentation:".TextFormat::BLACK." https://rconcraft.ml/docs/d2m");
 				return true;
 			default:
 				return false;
