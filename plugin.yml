@@ -10,7 +10,3 @@ commands:
     description: Bot Say Command
     usage: "/rcsay"
     permission: rconcraft.command.say
-  discordtominecraft:
-    description: DiscordToMinecraft
-    usage: "/discordtominecraft"
-    permission: "rconcraft.command.dtom
